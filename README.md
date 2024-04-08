@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Abdullo19940212
+- 👋 Hi, I’m Abdullo Tursunov
 - 👀 I’m interested in Python
 - 🌱 I’m currently learning Data analysis
 - 💞️ I’m looking to collaborate on ...
