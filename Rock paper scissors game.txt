@@ -1,0 +1,23 @@
+my version:
+import random
+print("What do you choose? Type o for Rock, 1 for Paper or 2 for Scissors!")
+computer_choice=random.choice([0,1,2])
+your_choice=int(input("What is your choice?\n"))
+print(computer_choice)
+if your_choice==0 or your_choice==1 or your_choice==2:
+    if your_choice==0 and computer_choice==1:
+        print("You lose!")
+    elif your_choice==1 and computer_choice==0:
+        print("You win!")
+    elif your_choice==0 and computer_choice==2:
+        print("You win!")
+    elif your_choice==2 and computer_choice==0:
+        print("You lose!")
+    elif your_choice==1 and computer_choice==2:
+        print("You lose!")
+    elif your_choice==2 and computer_choice==1:
+        print("You win!")
+    elif your_choice==computer_choice:
+        print("It is a tie!")
+else:
+    print("Please re-write the number!")
